@@ -16,10 +16,12 @@ The standard location of the keyboard
  
  Edit sxhkd config file.
  
- vim ~/.config/i3/sxhkd/sxhkdrc
- nano ~/.config/i3/sxhkd/sxhkdrc
- nvim ~/.config/i3/sxhkd/sxhkdrc
- gedit ~/.config/i3/sxhkd/sxhkdrc
+ mkdir ~/.config/i3/sxhkd
+ 
+If you use: vim ~/.config/i3/sxhkd/sxhkdrc
+If you use: nano ~/.config/i3/sxhkd/sxhkdrc
+If you use: nvim ~/.config/i3/sxhkd/sxhkdrc
+If you use: gedit ~/.config/i3/sxhkd/sxhkdrc
  
  and add the following commands
 
