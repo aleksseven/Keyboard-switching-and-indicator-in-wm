@@ -1,0 +1,35 @@
+The standard location of the keyboard
+
+/etc/default/keyboard
+
+ All available keyboard models.
+ 
+ /usr/share/X11/xkb/rules/xorg.lst
+ 
+ Install keyboard indicator utility 
+ 
+ sudo apt-get install fbxkb  
+ 
+ Go into windows manager autostart.
+ 
+ .config/i3/autostart.sh
+ 
+ Edit sxhkd config file.
+ 
+ vim ~/.config/i3/sxhkd/sxhkdrc
+ nano ~/.config/i3/sxhkd/sxhkdrc
+ nvim ~/.config/i3/sxhkd/sxhkdrc
+ gedit ~/.config/i3/sxhkd/sxhkdrc
+ 
+ and add the following commands
+
+#keyboard switch to us layout or latam layout
+
+alt + shift 
+
+setxkbmap 'us'
+setxkbmap 'latam'
+
+
+
+ 
